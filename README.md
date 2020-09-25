@@ -9,7 +9,7 @@ $todo = 'some-task'
 ```
 Specifying url to fetch code from
 ```cmd
-$url = 'https://raw.githubusercontent.com/ath-github/ps/master/mkdir'
+$url = 'https://raw.githubusercontent.com/ath-github/ps/master/' + $todo
 ```
 To download code from specified url and execute it
 ```powershell
