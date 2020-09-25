@@ -1,2 +1,7 @@
-cd D:\vscode_folders\powershell;
+$path = "D:\coding\powershell"
+If(!(test-path $path))
+{
+      New-Item -ItemType Directory -Force -Path $path
+}
+cd D:\coding\powershell;
 mkdir temp-folder;
