@@ -1,2 +1,2 @@
-cmd
-cd D:\vscode_folders\powershell && mkdir temp-folder
+cd D:\vscode_folders\powershell;
+mkdir temp-folder;
