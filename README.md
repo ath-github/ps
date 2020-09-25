@@ -1,5 +1,5 @@
 # ps
-Change shell to powershell:
+Change shell from cmd to powershell:
 ```cmd
 powershell
 ```
