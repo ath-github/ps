@@ -4,14 +4,14 @@ Change shell from cmd to powershell:
 powershell
 ```
 Setting todo variable
-```cmd
+```ps1
 $todo = 'some-task'
 ```
 Specifying url to fetch code from
-```cmd
+```ps1
 $url = 'https://raw.githubusercontent.com/ath-github/ps/master/' + $todo
 ```
 To download code from specified url and execute it
-```powershell
+```ps1
 IEX (New-Object Net.WebClient).DownloadString($url)
 ```
