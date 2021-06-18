@@ -1,6 +1,8 @@
-Diff. bet. Data, Information and knowledge
+## Diff. bet. Data, Information and knowledge
 
-DBMS provides:
+<hr/>
+
+## DBMS provides:
 - integrity: accuracy
   - entity integrity: by primary key (unique column)
   - domain integrity: by data types and other constraints
@@ -10,17 +12,17 @@ DBMS provides:
 - concurrency: multiple user access
 - utility: backup/import/performance
 
-Cardinality = rows = tuples
+## Cardinality = rows = tuples
 
-Degree = attributes = columns
+## Degree = attributes = columns
 
-DBMS types:
+## DBMS types:
 - Hierarchical
 - Network
 - Relational
 - NoSQL
 
-Primary key / candidate key / composite primary key (grp of att as p. Key):
+## Primary key / candidate key / composite primary key (grp of attributes as p. Key):
 - unique
 - not NULL
 - small
